@@ -1,8 +1,7 @@
 package cc.idiary.spider;
 
-import java.util.Collection;
+import java.util.Iterator;
 
 public interface UserHandler {
-    void handle(SimpleUserEntity user);
-    void handle(Collection<SimpleUserEntity> users);
+    void handle(UserParser parser);
 }
